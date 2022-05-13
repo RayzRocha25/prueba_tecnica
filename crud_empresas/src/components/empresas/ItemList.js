@@ -16,7 +16,7 @@ const ItemList = ({ empress , empreslist}) => {
       <div className="card card-body">
         <h3 className="card-title">
           {empress.name}
-          <NavLink to ={`/EmpresaUpdate/${empress.id}`}>
+          <NavLink to ={`//${empress.id}`}>
           <button  className="ms-2 btn btn-sm btn-info">
             Update
           </button>
